@@ -5,7 +5,7 @@ app = Flask(__name__)
 #index
 @app.route('/')
 def index():
-    return render_template('homepage.html')
+    return render_template('index.html')
 
 #köra appen
 if  __name__ == '__main__':
