@@ -2,7 +2,16 @@ function loadPage(page) {
     fetch('templates/' + page + '.html')
         .then(response => response.text())
         .then(data => {
-            document.getElementById('content').innerHTML = data;
+            const parser = new DOMParser();
+            const htmlDocument = parser.parseFromString(data, 'text/html');
+            const content = htmlDocument.querySelector('body').innerHTML;
+
+            // Replace the content of the current page with the loaded content
+            document.open();
+            document.write(content);
+            document.close();
+
+            // Update the URL without reloading the page
             history.pushState({}, '', page);
         })
         .catch(error => console.error('Error:', error));
