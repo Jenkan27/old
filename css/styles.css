@@ -25,6 +25,7 @@ body {
 }
 
 #navbar{
+    padding-left: 10%;
     display:flex;
     align-items: center;
     width:100%;
@@ -36,7 +37,7 @@ body {
     text-decoration: None;
     color: #fff;
     font-size: 30px;
-    margin-left: 40px;
+    margin-left: 60px;
     height:40px;
     object-fit: fill;
 }
@@ -114,6 +115,22 @@ body {
     width:50%;
     height:800px;
     background-color: rgba(177, 177, 177, 0.144);
+}
+
+#content #post {
+    border-radius:10%;
+    width:95%;
+    min-height: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top:30px;
+    padding: 5px 5px 5px 5px;
+    background-color: bisque;
+    overflow: hidden;
+}
+
+#content #post p {
+    padding: 0 10px;
 }
 
 /* cv */
