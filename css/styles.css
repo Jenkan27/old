@@ -20,15 +20,15 @@ body {
 }
 
 #presentation .item {
-    margin-top: 0;
     text-align: center;
 }
+
 
 #navbar{
     padding-left: 10%;
     display:flex;
     align-items: center;
-    width:100%;
+    width:90%;
     height: 70px;
     background-color: rgba(56, 94, 48, 0.808);
 }
@@ -115,18 +115,20 @@ body {
     width:50%;
     height:800px;
     background-color: rgba(177, 177, 177, 0.144);
+    overflow-y: auto;
 }
 
 #content #post {
-    border-radius:10%;
-    width:95%;
+    border-radius:30px;
+    width:94%;
     min-height: 50px;
-    margin-left: 2%;
+    margin-left: 2.5%;
     margin-right: 2%;
-    margin-top:30px;
+    margin-top:20px;
     padding: 5px 5px 5px 5px;
-    background-color: bisque;
+    background-color: rgba(161, 159, 155, 0.377);
 }
+
 
 
 /* cv */
