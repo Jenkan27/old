@@ -126,12 +126,8 @@ body {
     margin-top:30px;
     padding: 5px 5px 5px 5px;
     background-color: bisque;
-    overflow: hidden;
 }
 
-#content #post p {
-    padding: 0 10px;
-}
 
 /* cv */
 
