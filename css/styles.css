@@ -140,3 +140,14 @@ body {
     display: flex;
     align-items: center;
 }
+
+/* projekt */
+.temp {
+    font-size: 30px;
+    color: #000000;
+}
+
+.temp a{
+    font-size: 30px;
+    color: #000000;
+}
