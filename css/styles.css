@@ -179,4 +179,5 @@ body {
     margin-left: 10px;
     max-width: 500px;
     min-height: 200px;
+    border: 2px solid;
 }
