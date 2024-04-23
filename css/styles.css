@@ -153,3 +153,11 @@ body {
     font-size: 30px;
     color: #000000;
 }
+
+/* projekt */
+.bankapp_main img {
+    margin-top: 10px;
+    margin-left: 10px;
+    max-width: 500px;
+    min-height: 200px;
+}
