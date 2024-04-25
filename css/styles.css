@@ -115,7 +115,7 @@ body {
     margin-top:20px;
     min-width:50%;
     max-width:60%;
-    height:70vh;
+    height:80vh;
     background-color: rgba(177, 177, 177, 0);
     overflow-y: auto;
 }
@@ -133,14 +133,14 @@ body {
 .vertical-row-left {
     margin-top:20px;
     margin-left: 5%;
-    height:70vh;
+    height:80vh;
     width:2px;
     background-color: black
    }
 
 .vertical-row-right {
     margin-top:20px;
-    height:70vh;
+    height:80vh;
     width:2px;
     background-color: black
 }
