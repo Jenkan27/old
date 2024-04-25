@@ -113,15 +113,52 @@ body {
 #content {
     border-radius: 10px;
     margin-top:20px;
-    margin-left: 5%;
     min-width:50%;
-    max-width:80%;
+    max-width:60%;
     height:70vh;
-    background-color: rgba(177, 177, 177, 0.144);
+    background-color: rgba(177, 177, 177, 0);
     overflow-y: auto;
 }
 
 #content #post {
+    border-radius:2px;
+    width:94%;
+    min-height: 50px;
+    margin-inline: auto;
+    padding: 5px 5px 5px 5px;
+    background-color: rgba(161, 159, 155, 0.082);
+    font-size: 30px;
+}
+
+.vertical-row-left {
+    margin-top:20px;
+    margin-left: 5%;
+    height:70vh;
+    width:2px;
+    background-color: black
+   }
+
+.vertical-row-right {
+    margin-top:20px;
+    height:70vh;
+    width:2px;
+    background-color: black
+}
+
+/* blogg */
+
+#blogg-content {
+    border-radius: 10px;
+    margin-top:20px;
+    margin-inline: auto;
+    min-width:50%;
+    max-width:90%;
+    height:80vh;
+    background-color: rgba(177, 177, 177, 0.144);
+    overflow-y: auto;
+}
+
+#blogg-content #post {
     border-radius:10px;
     width:94%;
     min-height: 50px;
