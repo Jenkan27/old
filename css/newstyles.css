@@ -1,0 +1,263 @@
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif' 
+}
+
+.navbar {
+    display: flex;
+    max-width:100vw;
+    height: 50px;
+    font-size: 20px;
+    justify-content: left;
+    padding-inline: 8px;
+    padding-top: 15px;
+    background-color: rgba(81, 82, 81, 0.171);
+}
+
+.navbaritem {
+    margin-left: 10vw;
+    display: flex;
+    width:45vw;
+    justify-content: space-around;
+}
+
+.bottomline {
+    height:1px;
+    width:100vw;
+    background-color: rgb(0, 0, 0)
+   }
+
+.mainwrapper {
+    margin-inline: auto;
+    width: 80vw;
+    display: flex;
+}
+
+.presentation {
+    border-radius: 10px;
+    margin-top: 4vh;
+    max-width: 40vw;
+    min-height:40vh;
+    max-height: 70vh;
+    background-color: rgba(47, 48, 47, 0.116);
+    color:rgb(0, 0, 0);
+}
+
+.profilepicwrapper {
+    padding-top: 2%;
+    height: 60%;
+    width: 100%;
+}
+
+.profilepicwrapper img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    max-width:100%;
+    max-height:100%;
+}
+
+.presentationitemwrapper {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.presentation-links {
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+}
+
+.contentwrapper {
+    display: flex;
+    max-width: 50vw;
+    margin-left: 3vw;
+    margin-top: 3vh;
+}
+
+.contenttext {
+    max-width: 90%;
+    margin-inline: auto;
+    font-size: 20px;
+}
+
+.contenttext h1 {
+    margin-top: 8px;
+}
+
+.contenttext h2 {
+    margin-top: 5px;
+}
+
+.contenttext p {
+    margin-top: 5px;
+}
+
+.vertical-row-left {
+    height:70vh;
+    width:1px;
+    background-color: rgba(0, 0, 0, 0.500)
+   }
+
+.vertical-row-right {
+    height:70vh;
+    width:1px;
+    background-color: rgba(0, 0, 0, 0.500)
+}
+
+a {
+    color:rgb(0, 0, 0);
+}
+
+.left-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    
+}
+
+.latest-article {
+    margin-top: 10vh;
+    border: solid black 1px;
+    max-width:25vw;
+    height: 25vh;
+    margin-inline: auto;
+    overflow: hidden;
+}
+
+.latest-article p, h1, h2{
+    padding:6px;
+}
+
+.latest-article a{
+    padding:4px;
+    font-size: 30px;
+    color:black
+}
+
+.latest-article-title {
+    height:20%;
+    background-color: rgba(49, 143, 44, 0.4);
+    padding: 4px;
+    font-size: 22px;
+}
+
+
+
+@media (max-width: 600px) {
+    .navbar {
+        max-width:100vw;
+        height: 40px;
+        font-size: 20px;
+        justify-content: left;
+        padding-top: 10px;
+        background-color: rgba(49, 143, 44, 0.850);
+    }
+
+    .navbaritem {
+        display: flex;
+        width:100vw;
+        justify-content: space-around;
+        font-size: 20px;
+        margin-left:0vw;
+    }
+
+    .mainwrapper {
+        width: 100vw;
+        display: block;
+    }
+
+    .presentation {
+        border-radius: 10px;
+        margin-top: 4vh;
+        margin-inline: auto;
+        max-width: 80vw;
+        height:40vh;
+        background-color: rgba(49, 143, 44, 0.4);
+    }
+
+    .profilepicwrapper {
+        padding-top: 2%;
+        height: 60%;
+        width: 100%;
+    }
+    
+    .profilepicwrapper img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 50%;
+        max-width:100%;
+        max-height:100%;
+    }
+
+    .presentationitemwrapper {
+        margin-top: 5%;
+        text-align: center;
+        font-size: 23px;
+
+    }
+
+    .contentwrapper {
+        max-width: 90vw;
+        margin-inline: auto;
+        margin-top: 3vh;
+    }
+
+    .contenttext {
+        max-width: 90%;
+        margin-inline: auto;
+        font-size: 15px;
+    }
+
+    .contenttext h2 {
+        margin-top: 5px;
+    }
+
+    .contenttext p {
+        margin-top: 5px;
+    }
+
+    .vertical-row-left {
+        height:70vh;
+        width:1px;
+        background-color: rgba(0, 0, 0, 0)
+       }
+    
+    .vertical-row-right {
+        height:70vh;
+        width:1px;
+        background-color: rgba(0, 0, 0, 0)
+    }
+
+    .latest-article {
+        border: solid rgba(0, 0, 0, 0) 1px;
+        margin-top: 0vh;
+        background-color: rgba(0, 0, 255, 0);
+        max-width:0vw;
+        max-height:0vh;
+        min-height: 0vh;
+        overflow:hidden;
+        margin-inline: auto;
+    }
+}
+
+
+@media (max-width: 380px) {
+    .presentation {
+        min-height: 50vh;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1146px) {
+    .presentation {
+        min-height: 50vh;
+    }
+}
