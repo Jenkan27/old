@@ -169,7 +169,7 @@ a {
         font-size: 20px;
         justify-content: left;
         padding-top: 10px;
-        background-color: rgba(49, 143, 44, 0.850);
+        background-color: rgba(81, 82, 81, 0.116);
     }
 
     .navbaritem {
@@ -191,7 +191,7 @@ a {
         margin-inline: auto;
         max-width: 80vw;
         height:40vh;
-        background-color: rgba(49, 143, 44, 0.4);
+        background-color: rgba(81, 82, 81, 0.171);
     }
 
     .profilepicwrapper {
