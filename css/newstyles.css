@@ -219,6 +219,7 @@ a {
         max-width: 90vw;
         margin-inline: auto;
         margin-top: 3vh;
+        margin-bottom: 40vh;
     }
 
     .contenttext {
@@ -232,7 +233,7 @@ a {
     }
 
     .contenttext p {
-        margin-top: 5px;
+        margin-top: 20px;
     }
 
     .vertical-row-left {
