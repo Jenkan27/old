@@ -89,8 +89,7 @@ body {
 .contentwrapper {
     display: flex;
     max-width: 50vw;
-    margin-left: 3vw;
-    margin-top: 3vh;
+    margin-top: 5vh;
 }
 
 .contenttext {
@@ -112,13 +111,13 @@ body {
 }
 
 .vertical-row-left {
-    height:70vh;
+    height:100%;
     width:1px;
     background-color: rgba(0, 0, 0, 0.500)
    }
 
 .vertical-row-right {
-    height:70vh;
+    height:100%;
     width:1px;
     background-color: rgba(0, 0, 0, 0.500)
 }
@@ -158,6 +157,19 @@ a {
     background-color: rgba(49, 143, 44, 0.4);
     padding: 4px;
     font-size: 22px;
+}
+
+.right-wrapper{
+    min-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    
+}
+
+.emptyspace {
+    min-height: 20vh;
+    min-width: 50%;
 }
 
 
