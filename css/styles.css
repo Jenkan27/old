@@ -227,12 +227,14 @@ body {
 
 /* projekt */
 .headline {
+    margin-left:1vw;
     font-size: 30px;
     color: #000000;
 }
 
 .projekt {
     display: flex;
+    margin-top:2%;
     margin-left:5%;
     margin-right:10%;
     flex-direction: column;
@@ -262,4 +264,8 @@ body {
     max-width: 500px;
     min-height: 200px;
     border: 2px solid;
+}
+
+.bankapp_main p, h1, h2 {
+    margin-left:1vw;
 }
