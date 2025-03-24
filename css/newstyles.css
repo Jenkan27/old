@@ -139,7 +139,7 @@ a {
     max-width:25vw;
     height: 25vh;
     margin-inline: auto;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .latest-article p, h1, h2{
